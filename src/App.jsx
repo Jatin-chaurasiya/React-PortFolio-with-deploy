@@ -1,14 +1,28 @@
-function App() {
-  return (
-    <div className="container text-center mt-5">
-      <h1 className="text-3xl font-bold text-blue-500">
-        Tailwind + Bootstrap Working 🚀
-      </h1>
+import Header from "./components/Header";
+import { initAnimations } from "./utils/animations";
+import { useEffect } from "react";
+import Loader from "./components/loader";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Experience from "./components/experience";
+import Achievements from "./components/achievements";
 
-      <button className="btn btn-primary mt-3">
-        Bootstrap Button
-      </button>
-    </div>
+
+function App() {
+  useEffect(() => {
+    const cleanup = initAnimations();
+    return cleanup;
+  }, []);
+  return (
+    <>
+    <Loader />
+    <Header />
+    <Hero />
+    <About />
+    <Experience />
+    <Achievements />
+    </>
   );
 }
+
 export default App;

@@ -3,9 +3,10 @@ import { initAnimations } from "./utils/animations";
 import { useEffect } from "react";
 import Loader from "./components/loader";
 import Hero from "./components/Hero";
-import About from "./components/About";
+import About from "./components/about";
 import Experience from "./components/experience";
 import Achievements from "./components/achievements";
+import Projects from "./components/pojects";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <About />
     <Experience />
     <Achievements />
+    <Projects />
     </>
   );
 }

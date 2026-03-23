@@ -7,6 +7,7 @@ import About from "./components/about";
 import Experience from "./components/experience";
 import Achievements from "./components/achievements";
 import Projects from "./components/pojects";
+import Footer from "./components/footer";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Experience />
     <Achievements />
     <Projects />
+    <Footer />
     </>
   );
 }

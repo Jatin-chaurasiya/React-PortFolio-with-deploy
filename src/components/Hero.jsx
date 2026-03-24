@@ -1,5 +1,9 @@
 import React from "react";
 import profile from "../assets/profile.jpg"; 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChalkboardUser } from '@fortawesome/free-solid-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faVideo } from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => {
   return (
@@ -68,7 +72,7 @@ const Hero = () => {
 
           <div className="hero-stats stats-1">
             <div className="hero-stats-icon">
-              <i className="fas fa-code"></i>
+              <FontAwesomeIcon icon={faCode} />
             </div>
             <div className="hero-stats-text">
               <div className="hero-stats-label">Java</div>
@@ -78,7 +82,7 @@ const Hero = () => {
 
           <div className="hero-stats stats-2">
             <div className="hero-stats-icon">
-              <i className="fa-solid fa-chalkboard-user"></i>
+             <FontAwesomeIcon icon={faChalkboardUser} />
             </div>
             <div className="hero-stats-text">
               <div className="hero-stats-label">Creative Thinker</div>
@@ -88,7 +92,7 @@ const Hero = () => {
 
           <div className="hero-stats stats-3">
             <div className="hero-stats-icon">
-              <i className="fa-solid fa-video"></i>
+              <FontAwesomeIcon icon={faVideo} />
             </div>
             <div className="hero-stats-text">
               <div className="hero-stats-label">Learner</div>

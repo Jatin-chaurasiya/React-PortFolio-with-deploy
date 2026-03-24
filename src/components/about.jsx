@@ -35,14 +35,16 @@ const About = () => {
 
               <div className="skill-item"><div className="skill-icon"><i className="fab fa-html5"></i></div><div className="skill-name">HTML</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fab fa-css3-alt"></i></div><div className="skill-name">CSS</div></div>
-              <div className="skill-item"><div className="skill-icon"><i className="fab fa-java"></i></div><div className="skill-name">Java</div></div>
+              <div className="skill-item"><div className="skill-icon"><i className="fab fa-java"></i></div><div className="skill-name">Java(DSA)</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fas fa-code"></i></div><div className="skill-name">Spring Boot</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fab fa-js"></i></div><div className="skill-name">JavaScript</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fab fa-react"></i></div><div className="skill-name">Data JPA</div></div>
+               <div className="skill-item"><div className="skill-icon"><i className="fab fa-html5"></i></div><div className="skill-name">Hibernate</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fas fa-database"></i></div><div className="skill-name">SQL</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fa-solid fa-server"></i></div><div className="skill-name">MySQL</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fa-solid fa-cloud"></i></div><div className="skill-name">Git</div></div>
               <div className="skill-item"><div className="skill-icon"><i className="fa-solid fa-code-branch"></i></div><div className="skill-name">GitHub</div></div>
+               <div className="skill-item"><div className="skill-icon"><i className="fab fa-html5"></i></div><div className="skill-name">AWS(EC2,S3,VPC)</div></div>
 
             </div>
           </div>

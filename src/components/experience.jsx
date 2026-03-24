@@ -1,4 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChalkboardUser } from '@fortawesome/free-solid-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faClapperboard } from '@fortawesome/free-solid-svg-icons'
+
+
+
 
 const Experience = () => {
   return (
@@ -16,7 +23,7 @@ const Experience = () => {
 
           <div className="timeline-item">
             <div className="timeline-icon">
-              <i className="fa-solid fa-person-chalkboard"></i>
+              <FontAwesomeIcon icon={faChalkboardUser} />
             </div>
             <div className="timeline-content">
               <div className="timeline-date">2018 - 2020</div>
@@ -30,7 +37,7 @@ const Experience = () => {
 
           <div className="timeline-item">
             <div className="timeline-icon">
-              <i className="fa-solid fa-code"></i>
+              <FontAwesomeIcon icon={faCode} />
             </div>
             <div className="timeline-content">
               <div className="timeline-date">2020 - 2022</div>
@@ -44,11 +51,11 @@ const Experience = () => {
 
           <div className="timeline-item">
             <div className="timeline-icon">
-              <i className="fa-solid fa-clapperboard"></i>
+              <FontAwesomeIcon icon={faClapperboard} />
             </div>
             <div className="timeline-content">
               <div className="timeline-date">2023 - 2027</div>
-              <h3 className="timeline-title">B.Tech</h3>
+              <h3 className="timeline-title">B.Tech(CSE-AIML)</h3>
               <h4 className="timeline-subtitle">ABES Engineering College</h4>
               <p className="timeline-description">
                 Currently learning Java, DSA, and backend development.
@@ -58,7 +65,7 @@ const Experience = () => {
 
           <div className="timeline-item">
             <div className="timeline-icon">
-              <i className="fa-solid fa-chalkboard-user"></i>
+              <FontAwesomeIcon icon={faChalkboardUser} />
             </div>
             <div className="timeline-content">
               <div className="timeline-date">2023 - Present</div>

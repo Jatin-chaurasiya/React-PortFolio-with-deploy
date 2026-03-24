@@ -1,14 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookF,
   faGithub,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faPhone,
   faEnvelope,
-  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {

@@ -4,6 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChalkboardUser } from '@fortawesome/free-solid-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faVideo } from '@fortawesome/free-solid-svg-icons'
+import {
+  faPhone,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+
+import {
+  faGithub,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Hero = () => {
   return (
@@ -28,7 +37,7 @@ const Hero = () => {
           </p>
 
           <div className="hero-buttons">
-            <a href="/files/resume1.pdf" className="btn btn-primary" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1ni2z4uCuNUIQAIhEsxqBKnFmhFpjOS86/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer">
               View My Resume <i className="fas fa-arrow-right"></i>
             </a>
 
@@ -39,19 +48,19 @@ const Hero = () => {
 
           <div className="social-links">
             <a href="tel:+919876543210" className="social-link">
-              <i className="fas fa-phone-alt"></i>
+              <FontAwesomeIcon icon={faPhone} />
             </a>
 
             <a href="mailto:jatinkumar638881@gmail.com" className="social-link">
-              <i className="fas fa-envelope"></i>
+              <FontAwesomeIcon icon={faEnvelope} />
             </a>
 
             <a href="https://www.linkedin.com/in/jatin-chaurasiya-70b22b2b4/" target="_blank" className="social-link" rel="noreferrer">
-              <i className="fab fa-linkedin-in"></i>
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
 
             <a href="https://github.com/Jatin-chaurasiya" target="_blank" className="social-link" rel="noreferrer">
-              <i className="fab fa-github"></i>
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
 

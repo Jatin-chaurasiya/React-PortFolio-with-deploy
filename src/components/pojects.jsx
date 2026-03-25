@@ -1,7 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
-import img1 from "../assets/thumbnail6.jpg";
-import img2 from "../assets/thumbnail1.jpg";
+import img1 from "../assets/thumbnail6.png";
+import img2 from "../assets/thumbnail1.png";
 import img3 from "../assets/thumbnail2.png";
 import img4 from "../assets/thumbnail3.png";
 import img5 from "../assets/image2.png";
@@ -11,7 +14,6 @@ const Projects = () => {
   return (
     <section className="section projects" id="projects">
       <div className="container">
-
         <div className="section-title-container">
           <h2 className="section-title">My Work</h2>
           <p className="section-subtitle">
@@ -22,7 +24,6 @@ const Projects = () => {
         </div>
 
         <div className="projects-container">
-
           {/* Project 1 */}
           <div className="project-card">
             <div className="project-image">
@@ -32,16 +33,26 @@ const Projects = () => {
                 <span className="project-tag">Spring Boot</span>
                 <span className="project-tag">MySQL</span>
                 <span className="project-tag">JPA</span>
+                <span className="project-tag">Thymeleaf</span>
               </div>
             </div>
             <div className="project-content">
-              <h3 className="project-title">CRM</h3>
+              <h3 className="project-title">CRM(Major Project)</h3>
               <p className="project-description">
-                REST API based CRM using Spring Boot + MySQL.
+                Built a REST API-based Customer Relationship Management (CRM)
+                system using Spring Boot, MySQL, and Thymeleaf. Implemented
+                features like customer management, lead tracking, and
+                interaction handling with a clean layered architecture
+                (Controller–Service–Repository). Designed scalable APIs and a
+                dynamic UI for efficient data management.
               </p>
               <div className="project-links">
-                <a href="https://github.com/Jatin-chaurasiya/Customer-Relationship-Managemen" target="_blank" className="project-link">
-                  <i className="fab fa-github"></i> Code
+                <a
+                  href="https://github.com/Jatin-chaurasiya/Customer-Relationship-Management"
+                  target="_blank"
+                  className="project-link"
+                >
+                  <FontAwesomeIcon icon={faGithub} />
                 </a>
               </div>
             </div>
@@ -52,12 +63,28 @@ const Projects = () => {
             <div className="project-image">
               <img src={img2} alt="Student" />
               <div className="project-overlay"></div>
+              <div className="project-tags">
+                <span className="project-tag">Servlet</span>
+                <span className="project-tag">JPA</span>
+                <span className="project-tag">Tomcat Server</span>
+              </div>
             </div>
             <div className="project-content">
               <h3 className="project-title">Student Result</h3>
               <p className="project-description">
-                Manage student data using Spring Boot.
+                Built a Student Result Management System with Spring Boot
+                featuring admin panel to add, update, and manage student results
+                and records efficiently.
               </p>
+              <div className="project-links">
+                <a
+                  href="https://github.com/Jatin-chaurasiya/Student-Result-Management"
+                  target="_blank"
+                  className="project-link"
+                >
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </div>
             </div>
           </div>
 
@@ -66,29 +93,38 @@ const Projects = () => {
             <div className="project-image">
               <img src={img3} alt="Shop" />
               <div className="project-overlay"></div>
+              <div className="project-tags">
+                <span className="project-tag">HTML</span>
+                <span className="project-tag">CSS</span>
+                <span className="project-tag">Java Script</span>
+              </div>
             </div>
             <div className="project-content">
               <h3 className="project-title">Farmer Shop</h3>
               <p className="project-description">
-                Static e-commerce UI using HTML/CSS/JS.
+                Built a responsive Farmer Shop e-commerce frontend using HTML,
+                CSS, and JavaScript with product listings and user-friendly
+                interface for online shopping simulation.
               </p>
+              <div className="project-links">
+                <a
+                  href="https://github.com/Jatin-chaurasiya/MyShop-Project"
+                  target="_blank"
+                  className="project-link"
+                >
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+                <a
+                  href="https://chaurasiyakrashiseva.netlify.app/"
+                  target="_blank"
+                  className="project-link"
+                >
+                  <FontAwesomeIcon icon={faLink} />
+                </a>
+              </div>
             </div>
           </div>
-
-          {/* Project 4 */}
-          <div className="project-card">
-            <div className="project-image">
-              <img src={img4} alt="SkillDrift" />
-              <div className="project-overlay"></div>
-            </div>
-            <div className="project-content">
-              <h3 className="project-title">SkillDrift</h3>
-              <p className="project-description">
-                Tailwind UI project.
-              </p>
-            </div>
-          </div>
-
+          
           {/* Project 5 */}
           <div className="project-card">
             <div className="project-image">
@@ -111,12 +147,9 @@ const Projects = () => {
             </div>
             <div className="project-content">
               <h3 className="project-title">Money Manager</h3>
-              <p className="project-description">
-                Track income & expenses.
-              </p>
+              <p className="project-description">Track income & expenses.</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>

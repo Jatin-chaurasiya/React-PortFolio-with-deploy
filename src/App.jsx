@@ -10,6 +10,8 @@ import Projects from "./components/pojects";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
 import StatsSection from "./components/stats";
+import SharePopup from "./components/SharePopup";
+import ChatBot from "./components/ChatBot";
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
     <StatsSection />
     <Contact />
     <Footer />
+    <SharePopup />
+    <ChatBot />
     </>
   );
 }

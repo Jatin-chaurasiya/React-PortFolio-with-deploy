@@ -68,14 +68,17 @@ const Footer = () => {
               <a href="#about" className="footer-link">
                 <i className="fas fa-chevron-right"></i> About
               </a>
-              <a href="#projects" className="footer-link">
-                <i className="fas fa-chevron-right"></i> My Work
-              </a>
               <a href="#experience" className="footer-link">
                 <i className="fas fa-chevron-right"></i> Experience
               </a>
               <a href="#achievements" className="footer-link">
                 <i className="fas fa-chevron-right"></i> Achievements
+              </a>
+              <a href="#projects" className="footer-link">
+                <i className="fas fa-chevron-right"></i> Projects
+              </a>
+              <a href="#stats" className="footer-link">
+                <i className="fas fa-chevron-right"></i>Coding Journey
               </a>
             </div>
           </div>
@@ -112,7 +115,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="footer-bottom">
-          <p>© 2025 Jatin Chaurasiya. All rights reserved.</p>
+          <p>© 2026 Jatin Chaurasiya. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -12,9 +12,10 @@ const Header = () => {
         <nav className="nav">
           <div className="nav-links">
             <a href="#about" className="nav-link">About</a>
-            <a href="#projects" className="nav-link">Projects</a>
             <a href="#experience" className="nav-link">Experience</a>
             <a href="#achievements" className="nav-link">Achievements</a>
+            <a href="#projects" className="nav-link">Projects</a>
+            <a href="#stats" className="nav-link">Coding Journey</a>
             <a href="#contact" className="nav-link">Contact</a>
           </div>
         </nav>

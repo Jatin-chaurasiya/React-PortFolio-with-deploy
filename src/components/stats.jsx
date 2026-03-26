@@ -2,9 +2,8 @@ import React from "react";
 
 const StatsSection = () => {
   return (
-    <section className="bg-[#020617] text-white py-16 px-6">
+    <section className="bg-[#020617] text-white py-16 px-6" id="stats">
       
-      {/* Heading */}
       <div className="text-center mb-12">
         <p className="text-gray-400 tracking-widest">MY CODING JOURNEY</p>
         <h1 className="text-5xl font-bold mt-2">
@@ -12,7 +11,6 @@ const StatsSection = () => {
         </h1>
       </div>
 
-      {/* GitHub Section */}
       <h2 className="text-3xl font-semibold text-center mb-8">
         GitHub Statistics
       </h2>

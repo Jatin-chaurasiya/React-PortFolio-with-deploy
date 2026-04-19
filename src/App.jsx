@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import { initAnimations } from "./utils/animations";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Loader from "./components/loader";
 import Hero from "./components/Hero";
 import About from "./components/about";
@@ -13,26 +13,35 @@ import StatsSection from "./components/stats";
 import SharePopup from "./components/SharePopup";
 import ChatBot from "./components/ChatBot";
 
-
 function App() {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     const cleanup = initAnimations();
-    return cleanup;
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => {
+      cleanup?.();
+      clearTimeout(timer);
+    };
   }, []);
+
   return (
     <>
-    <Loader />
-    <Header />
-    <Hero />
-    <About />
-    <Experience />
-    <Achievements />
-    <Projects />
-    <StatsSection />
-    <Contact />
-    <Footer />
-    <SharePopup />
-    <ChatBot />
+      {loading && <Loader />}
+      <Header />
+      <Hero />
+      <About />
+      <Experience />
+      <Achievements />
+      <Projects />
+      <StatsSection />
+      <Contact />
+      <Footer />
+      <SharePopup />
+      <ChatBot />
     </>
   );
 }

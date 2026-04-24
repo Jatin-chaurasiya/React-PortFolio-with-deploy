@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
 
           <div className="hero-buttons">
-            <a href="https://drive.google.com/file/d/1ni2z4uCuNUIQAIhEsxqBKnFmhFpjOS86/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1Zfy07540eEdxa485JjW25RuUel-2S2bM/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer">
               View My Resume <i className="fas fa-arrow-right"></i>
             </a>
 

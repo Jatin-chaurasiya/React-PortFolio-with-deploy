@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/profile.jpg"; 
+import profile from "../assets/profile.jpeg"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChalkboardUser } from '@fortawesome/free-solid-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
